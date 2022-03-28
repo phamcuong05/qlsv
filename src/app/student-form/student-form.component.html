@@ -1,0 +1,41 @@
+<h1>Add new student</h1>
+<form class="example-form" [formGroup]="studentsForm">
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Code</mat-label>
+        <input matInput name="code" formControlName="code" required>
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput name="name" formControlName="name" required>
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Age</mat-label>
+        <input matInput name="age" formControlName="age">
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Gender</mat-label>
+        <input matInput name="gender" formControlName="gender">
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput name="email" formControlName="email">
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Address</mat-label>
+        <input matInput name="address" formControlName="address">
+    </mat-form-field>
+    <br/>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Specialist</mat-label>
+        <input matInput name="specialist" formControlName="specialist">
+    </mat-form-field>
+    <br/>
+    <button mat-raised-button color="primary" [disabled]="!studentsForm.valid" (click)="saveStudent()">Save <span *ngIf="id==0">& New Create</span></button> &nbsp;
+    <button mat-raised-button color="primary" (click)="randomStudent()" *ngIf="id == 0">Auto Add </button> &nbsp;
+    <button mat-raised-button color="primary" (click)="goBack()">Back</button>
+</form>

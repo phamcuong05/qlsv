@@ -1,0 +1,34 @@
+<h1> List Students</h1>
+
+<table id="customers">
+    <div class="search-hero">
+        <input class="form-control" type="text" name="search" [(ngModel)]="searchStudent" autocomplete="off" placeholder="  Search...">
+    </div>
+    <tr>
+        <th>ID</th>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Specialist</th>
+        <th></th>
+    </tr>
+    <tr *ngFor="let item of students | filter:searchStudent">
+        <td>{{item?.id}}</td>
+        <td>{{item?.code}}</td>
+        <td>{{item?.name}}</td>
+        <td>{{item?.age}}</td>
+        <td>{{item?.gender}}</td>
+        <td>{{item?.email}}</td>
+        <td>{{item?.address}}</td>
+        <td>{{item?.specialist}}</td>
+        <td>
+            <button class="non-button" (click)="editStudent(item.id)"><mat-icon>edit</mat-icon></button>
+            <button class="non-button" (click)="deleteStudent(item.id)"><mat-icon>delete</mat-icon></button>
+        </td>
+    </tr>
+</table>
+<br/>
+<button (click)="addStudent()" mat-raised-button color="primary"><mat-icon>add</mat-icon>Add Student</button>

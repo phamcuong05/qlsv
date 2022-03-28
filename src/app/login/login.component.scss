@@ -1,0 +1,16 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.btn-color {
+    background-color: #04AA6D !important;
+    border-color: #04AA6D !important;
+}
+
+.red-color {
+    color: red;
+}

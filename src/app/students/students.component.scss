@@ -1,0 +1,55 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+button {
+    background-color: #04AA6D !important;
+    cursor: pointer;
+}
+
+.non-button {
+    border: none;
+    background-color: transparent !important;
+}
+
+.search-hero {
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.form-control {
+    width: 50%;
+    height: 30px;
+    box-shadow: 0 10px 40px 0 #B0C1D9;
+    border-radius: 4px;
+    border-color: #04AA6D;
+    font-size: 16px;
+}
+
+.form-control::placeholder {
+    font-family: FontAwesome;
+}

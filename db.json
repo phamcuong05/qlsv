@@ -1,0 +1,131 @@
+{
+  "students": [
+    {
+      "code": "ht22",
+      "name": "Pham Xuan Cuong",
+      "age": "22",
+      "gender": "male",
+      "email": "phamcuong@gmail.com",
+      "address": "Ha noi",
+      "specialist": "Information Technology",
+      "id": 2
+    },
+    {
+      "code": "ht23",
+      "name": "Trần Tuấn Trọng",
+      "age": "22",
+      "gender": "Male",
+      "email": "trong@gmail.com",
+      "address": "Nam Định",
+      "specialist": "Information Technology",
+      "id": 4
+    },
+    {
+      "code": "ht20",
+      "name": "Vũ Mạnh Hùng",
+      "age": "22",
+      "gender": "Male",
+      "email": "hung@gmail.com",
+      "address": "Hà Nội",
+      "specialist": "Information Technology",
+      "id": 5
+    },
+    {
+      "code": "ht20",
+      "name": "Phạm Xuân Cường",
+      "age": "22",
+      "gender": "Male",
+      "email": "cuong@gmail.com",
+      "address": "Thái Bình",
+      "specialist": "Information Technology",
+      "id": 6
+    },
+    {
+      "code": "HETU",
+      "name": "Mr Eemil Valli",
+      "age": 49,
+      "gender": "male",
+      "email": "eemil.valli@example.com",
+      "address": "Eckerö, Finland",
+      "specialist": "",
+      "id": 7
+    },
+    {
+      "code": "INSEE",
+      "name": "Miss Amélie Arnaud",
+      "age": 74,
+      "gender": "female",
+      "email": "amelie.arnaud@example.com",
+      "address": "Saint-Pierre, France",
+      "specialist": null,
+      "id": 8
+    },
+    {
+      "code": "DNI",
+      "name": "Mr Vicente Vargas",
+      "age": 31,
+      "gender": "male",
+      "email": "vicente.vargas@example.com",
+      "address": "Parla, Spain",
+      "specialist": null,
+      "id": 9
+    },
+    {
+      "code": "INSEE",
+      "name": "Mr Côme Robin",
+      "age": 75,
+      "gender": "male",
+      "email": "come.robin@example.com",
+      "address": "Pau, France",
+      "specialist": null,
+      "id": 10
+    },
+    {
+      "code": "01",
+      "name": "Mr بردیا زارعی",
+      "age": 24,
+      "gender": "male",
+      "email": "brdy.zraay@example.com",
+      "address": "قرچک, Iran",
+      "specialist": null,
+      "id": 12
+    },
+    {
+      "code": "ht01",
+      "name": "xuan cuong",
+      "age": "20",
+      "gender": "",
+      "email": "",
+      "address": "",
+      "specialist": "",
+      "id": 13
+    },
+    {
+      "code": "TFN",
+      "name": "Mr Jeffrey Stone",
+      "age": 30,
+      "gender": "male",
+      "email": "jeffrey.stone@example.com",
+      "address": "Cairns, Australia",
+      "specialist": "",
+      "id": 14
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
